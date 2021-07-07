@@ -40,10 +40,10 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec-rails'
-  gem 'capybara'
+  gem 'capybara', '>= 3.15.1'
   gem 'faker'
   gem 'shoulda'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.18.1'
 end
 
 group :development do
